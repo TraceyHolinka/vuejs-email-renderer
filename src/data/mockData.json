@@ -1,0 +1,105 @@
+{
+  "articles": [
+    {
+      "id": 10,
+      "headline": "Headline for Faker News Article 1",
+      "postedDate": "Fri, 12 Jun 2020 03:47:48 GMT",
+      "permalink": "#",
+      "tags": [
+        {
+          "id": 21,
+          "name": "Tag 1"
+        },
+        {
+          "id": 26,
+          "name": "Tag 2"
+        }
+      ],
+      "author": {
+        "id": 30,
+        "name": "Faker News Author 1"
+      },
+      "summary": "Consequuntur voluptas minima numquam. Natus vel sit aspernatur consequatur autem esse veniam officiis ad. Error unde et eos autem. Exercitationem harum possimus labore. Velit dignissimos consectetur. Ipsum aut quae quibusdam omnis natus similique adipisci autem pariatur."
+    },
+    {
+      "id": 11,
+      "headline": "Headline for Faker News Article 2",
+      "postedDate": "Fri, 12 Jun 2020 12:48:07 GMT",
+      "permalink": "#",
+      "tags": [
+        {
+          "id": 21,
+          "name": "Tag 1"
+        }
+      ],
+      "author": {
+        "id": 30,
+        "name": "Faker News Author 1"
+      },
+      "summary": "Sed repudiandae labore nulla voluptas blanditiis placeat ex vitae. Optio non saepe culpa quo dolor aut consequatur. In repellendus itaque id sit est impedit eum corrupti est."
+    },
+    {
+      "id": 12,
+      "headline": "Headline for Faker News Article 3",
+      "postedDate": "Fri, 12 Jun 2020 00:08:25 GMT",
+      "permalink": "#",
+      "tags": [
+        {
+          "id": 28,
+          "name": "Tag 3"
+        },
+        {
+          "id": 26,
+          "name": "Tag 2"
+        }
+      ],
+      "author": {
+        "id": 30,
+        "name": "Faker News Author 1"
+      },
+      "summary": "Accusantium sit repellendus esse et et reiciendis sint. Dolorum quia deserunt et cum voluptates aliquid sed dignissimos. Similique distinctio recusandae. Deserunt quod sint quo sequi beatae facilis maxime voluptas. Qui perferendis facere dolorem asperiores."
+    },
+    {
+      "id": 13,
+      "headline": "Headline for Faker News Article 4",
+      "postedDate": "Fri, 12 Jun 2020 02:01:34 GMT",
+      "permalink": "#",
+      "tags": [
+        {
+          "id": 21,
+          "name": "Tag 1"
+        }
+      ],
+      "author": {
+        "id": 31,
+        "name": "Faker News Author 2"
+      },
+      "summary": "Excepturi ipsum in explicabo. Dolorem laudantium omnis nihil. Quasi vitae mollitia nobis numquam explicabo. Ut atque et et perspiciatis illo sit ea facilis ad."
+    },
+    {
+      "id": 14,
+      "headline": "Headline for Faker News Article 5",
+      "postedDate": "Thu, 11 Jun 2020 02:31:56 GMT",
+      "permalink": "#",
+      "tags": [
+        {
+          "id": 28,
+          "name": "Tag 3"
+        },
+        {
+          "id": 26,
+          "name": "Tag 2"
+        },
+        {
+          "id": 24,
+          "name": "Tag 4"
+        }
+      ],
+      "author": {
+        "id": 32,
+        "name": "Faker News Author 3"
+      },
+      "summary": "Provident eos ut officia. Quo sed rerum itaque sequi sed id consectetur. Consequatur magni qui enim quis ut ut quae et minima."
+    }
+  ]
+}

@@ -4,6 +4,8 @@
 // --lyanna-magenta: #a23e5f;
 // --arya-black: #0b0b0b;
 
+// Hover states are generally not supported so leaving links underline is a visually cue that the text is clickable.
+
 exports.inlineCSS = `
   a {
     color: #0073ff;

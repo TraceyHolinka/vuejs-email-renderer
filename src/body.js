@@ -5,6 +5,8 @@ Vue.component('Body', {
   template: `
   <mjml>
     <mj-head>
+      <mj-title>Faker News: The Real Fake News</mj-title>
+      <mj-preview>Vue.js is just plain awesome, so let's use it to build HTML email and bring some joy into HTML email development.</mj-preview>
       <mj-attributes>
         <mj-all font-family="Arial, sans-serif" />
         <mj-section padding="10px" background-color="#fff" />

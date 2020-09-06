@@ -1,105 +1,218 @@
 {
-  "articles": [
+  "sections": [
     {
-      "id": 10,
-      "headline": "Headline for Faker News Article 1",
-      "postedDate": "Fri, 12 Jun 2020 03:47:48 GMT",
+      "__typename": "FeaturedSection",
+      "id": 0,
+      "headline": "Headline for Featured Article ",
+      "postedDate": "Fri, 12 Jun 2020 07:47:48 GMT",
       "permalink": "#",
       "tags": [
         {
-          "id": 21,
-          "name": "Tag 1"
-        },
-        {
-          "id": 26,
+          "id": 6,
           "name": "Tag 2"
         }
       ],
       "author": {
         "id": 30,
-        "name": "Faker News Author 1"
-      },
-      "summary": "Consequuntur voluptas minima numquam. Natus vel sit aspernatur consequatur autem esse veniam officiis ad. Error unde et eos autem. Exercitationem harum possimus labore. Velit dignissimos consectetur. Ipsum aut quae quibusdam omnis natus similique adipisci autem pariatur."
-    },
-    {
-      "id": 11,
-      "headline": "Headline for Faker News Article 2",
-      "postedDate": "Fri, 12 Jun 2020 12:48:07 GMT",
-      "permalink": "#",
-      "tags": [
-        {
-          "id": 21,
-          "name": "Tag 1"
-        }
-      ],
-      "author": {
-        "id": 30,
-        "name": "Faker News Author 1"
-      },
-      "summary": "Sed repudiandae labore nulla voluptas blanditiis placeat ex vitae. Optio non saepe culpa quo dolor aut consequatur. In repellendus itaque id sit est impedit eum corrupti est."
-    },
-    {
-      "id": 12,
-      "headline": "Headline for Faker News Article 3",
-      "postedDate": "Fri, 12 Jun 2020 00:08:25 GMT",
-      "permalink": "#",
-      "tags": [
-        {
-          "id": 28,
-          "name": "Tag 3"
-        },
-        {
-          "id": 26,
-          "name": "Tag 2"
-        }
-      ],
-      "author": {
-        "id": 30,
-        "name": "Faker News Author 1"
-      },
-      "summary": "Accusantium sit repellendus esse et et reiciendis sint. Dolorum quia deserunt et cum voluptates aliquid sed dignissimos. Similique distinctio recusandae. Deserunt quod sint quo sequi beatae facilis maxime voluptas. Qui perferendis facere dolorem asperiores."
-    },
-    {
-      "id": 13,
-      "headline": "Headline for Faker News Article 4",
-      "postedDate": "Fri, 12 Jun 2020 02:01:34 GMT",
-      "permalink": "#",
-      "tags": [
-        {
-          "id": 21,
-          "name": "Tag 1"
-        }
-      ],
-      "author": {
-        "id": 31,
-        "name": "Faker News Author 2"
-      },
-      "summary": "Excepturi ipsum in explicabo. Dolorem laudantium omnis nihil. Quasi vitae mollitia nobis numquam explicabo. Ut atque et et perspiciatis illo sit ea facilis ad."
-    },
-    {
-      "id": 14,
-      "headline": "Headline for Faker News Article 5",
-      "postedDate": "Thu, 11 Jun 2020 02:31:56 GMT",
-      "permalink": "#",
-      "tags": [
-        {
-          "id": 28,
-          "name": "Tag 3"
-        },
-        {
-          "id": 26,
-          "name": "Tag 2"
-        },
-        {
-          "id": 24,
-          "name": "Tag 4"
-        }
-      ],
-      "author": {
-        "id": 32,
         "name": "Faker News Author 3"
       },
-      "summary": "Provident eos ut officia. Quo sed rerum itaque sequi sed id consectetur. Consequatur magni qui enim quis ut ut quae et minima."
+      "imageUrl": "https://raw.githubusercontent.com/TraceyHolinka/vuejs-email-renderer-wip/master/src/assets/doggy.jpg",
+      "body": "<h2>tenetur repellat culpa est accusamus</h2><p>Possimus deserunt et quia fuga. Blanditiis hic et officiis. Itaque autem numquam. Ea voluptas a unde laborum aut mollitia at non et.</p><p>Mollitia non nulla ab velit. Aut praesentium ipsam dolorum aut fugit provident. Est quibusdam consequatur. Impedit voluptatem hic est.</p><p>Odit nam mollitia. Et ut blanditiis. Est aut consectetur nulla consequuntur sed sequi veniam. Architecto dolor amet. Vel deleniti voluptate vero reprehenderit. Maiores animi a ducimus officia quia aut ab nihil.</p><p>Eius id optio saepe dolor velit. Ut perferendis possimus assumenda qui et maxime dicta. Iusto dolorem quod expedita.</p><p>Perspiciatis commodi est voluptatum ea. Sed nulla et cupiditate ut inventore animi eligendi. Eum dolorem corporis maxime deleniti recusandae molestiae. Dolorem delectus reprehenderit minus quas veritatis ex. Nobis quam qui amet quae autem est fugiat at et.</p>"
+    },
+    {
+      "__typename": "FeedSection",
+      "id": 51,
+      "title": "Some Interesting Stuff",
+      "items": [
+        {
+          "id": 10,
+          "headline": "Headline for Faker News Article 1",
+          "postedDate": "Fri, 12 Jun 2020 03:47:48 GMT",
+          "permalink": "#",
+          "tags": [
+            {
+              "id": 21,
+              "name": "Tag 1"
+            },
+            {
+              "id": 26,
+              "name": "Tag 2"
+            }
+          ],
+          "author": {
+            "id": 30,
+            "name": "Faker News Author 1"
+          },
+          "summary": "Consequuntur voluptas minima numquam. Natus vel sit aspernatur consequatur autem esse veniam officiis ad. Error unde et eos autem. Exercitationem harum possimus labore. Velit dignissimos consectetur. Ipsum aut quae quibusdam omnis natus similique adipisci autem pariatur."
+        },
+        {
+          "id": 11,
+          "headline": "Headline for Faker News Article 2",
+          "postedDate": "Fri, 12 Jun 2020 12:48:07 GMT",
+          "permalink": "#",
+          "tags": [
+            {
+              "id": 21,
+              "name": "Tag 1"
+            }
+          ],
+          "author": {
+            "id": 30,
+            "name": "Faker News Author 1"
+          },
+          "summary": "Sed repudiandae labore nulla voluptas blanditiis placeat ex vitae. Optio non saepe culpa quo dolor aut consequatur. In repellendus itaque id sit est impedit eum corrupti est."
+        },
+        {
+          "id": 12,
+          "headline": "Headline for Faker News Article 3",
+          "postedDate": "Fri, 12 Jun 2020 00:08:25 GMT",
+          "permalink": "#",
+          "tags": [
+            {
+              "id": 28,
+              "name": "Tag 3"
+            },
+            {
+              "id": 26,
+              "name": "Tag 2"
+            }
+          ],
+          "author": {
+            "id": 30,
+            "name": "Faker News Author 1"
+          },
+          "summary": "Accusantium sit repellendus esse et et reiciendis sint. Dolorum quia deserunt et cum voluptates aliquid sed dignissimos. Similique distinctio recusandae. Deserunt quod sint quo sequi beatae facilis maxime voluptas. Qui perferendis facere dolorem asperiores."
+        },
+        {
+          "id": 13,
+          "headline": "Headline for Faker News Article 4",
+          "postedDate": "Fri, 12 Jun 2020 02:01:34 GMT",
+          "permalink": "#",
+          "tags": [
+            {
+              "id": 21,
+              "name": "Tag 1"
+            }
+          ],
+          "author": {
+            "id": 31,
+            "name": "Faker News Author 2"
+          },
+          "summary": "Excepturi ipsum in explicabo. Dolorem laudantium omnis nihil. Quasi vitae mollitia nobis numquam explicabo. Ut atque et et perspiciatis illo sit ea facilis ad."
+        },
+        {
+          "id": 14,
+          "headline": "Headline for Faker News Article 5",
+          "postedDate": "Thu, 11 Jun 2020 02:31:56 GMT",
+          "permalink": "#",
+          "tags": [
+            {
+              "id": 28,
+              "name": "Tag 3"
+            },
+            {
+              "id": 26,
+              "name": "Tag 2"
+            },
+            {
+              "id": 24,
+              "name": "Tag 4"
+            }
+          ],
+          "author": {
+            "id": 32,
+            "name": "Faker News Author 3"
+          },
+          "summary": "Provident eos ut officia. Quo sed rerum itaque sequi sed id consectetur. Consequatur magni qui enim quis ut ut quae et minima."
+        }
+      ]
+    },
+    {
+      "__typename": "ImageSection",
+      "id": 41,
+      "imageUrl": "https://raw.githubusercontent.com/TraceyHolinka/vuejs-email-renderer-wip/master/src/assets/flower.jpg"
+    },
+    {
+      "__typename": "FeedSection",
+      "id": 52,
+      "title": "Some Not So Interesting Stuff",
+      "items": [
+        {
+          "id": 15,
+          "headline": "Headline for Faker News Article 6",
+          "postedDate": "Thu, 11 Jun 2020 16:28:25 GMT",
+          "permalink": "#",
+          "tags": [],
+          "author": {
+            "id": 30,
+            "name": "Faker News Author 1"
+          },
+          "summary": "Occaecati architecto aut saepe ut velit. Harum deserunt quibusdam nobis ad expedita rem blanditiis. Facilis sapiente libero quia qui corporis. Blanditiis quo qui commodi. Et voluptate laborum id harum. Ut quia vero adipisci porro beatae eos recusandae quidem."
+        },
+        {
+          "id": 16,
+          "headline": "Headline for Faker News Article 7",
+          "postedDate": "Thu, 11 Jun 2020 08:57:55 GMT",
+          "permalink": "#",
+          "tags": [
+            {
+              "id": 21,
+              "name": "Tag 1"
+            },
+            {
+              "id": 28,
+              "name": "Tag 3"
+            },
+            {
+              "id": 24,
+              "name": "Tag 4"
+            }
+          ],
+          "author": {
+            "id": 31,
+            "name": "Faker News Author 2"
+          },
+          "summary": "Magni sequi autem deserunt voluptatem ullam et magnam. Voluptatem omnis beatae fuga exercitationem repellendus et voluptatum. Hic repellat at assumenda. Et quia quis laudantium magni et ipsum. Consequuntur voluptatem deserunt. Maiores et ipsum aperiam."
+        },
+        {
+          "id": 17,
+          "headline": "Headline for Faker News Article 8",
+          "postedDate": "Fri, 12 Jun 2020 02:48:11 GMT",
+          "permalink": "#",
+          "tags": [
+            {
+              "id": 24,
+              "name": "Tag 4"
+            }
+          ],
+          "author": {
+            "id": 31,
+            "name": "Faker News Author 2"
+          },
+          "summary": "Minus non omnis maiores aut quas placeat debitis impedit consequatur. Iste amet explicabo officia accusantium facere sint et. Est quia dolores a minima illum tenetur perspiciatis. Est qui blanditiis ut veritatis ut adipisci in. Minima mollitia incidunt quidem quasi excepturi."
+        },
+        {
+          "id": 18,
+          "headline": "Headline for Faker News Article 9",
+          "postedDate": "Thu, 11 Jun 2020 04:50:39 GMT",
+          "permalink": "#",
+          "tags": [
+            {
+              "id": 21,
+              "name": "Tag 1"
+            },
+            {
+              "id": 24,
+              "name": "Tag 4"
+            }
+          ],
+          "author": {
+            "id": 32,
+            "name": "Faker News Author 3"
+          },
+          "summary": "Nisi dicta temporibus quas et minus dolores. Rerum cumque consequatur cupiditate in vel aperiam mollitia non. Possimus eveniet illo nisi doloremque et sint adipisci aut aut. Reprehenderit quia necessitatibus et. Et dolores error velit illum aliquid exercitationem. Est voluptas maiores repellat et earum voluptatem veritatis sunt."
+        }
+      ]
     }
   ]
 }

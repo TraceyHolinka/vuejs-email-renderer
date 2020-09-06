@@ -19,13 +19,13 @@ exports.renderHtml = async function renderHtml(payload, options) {
   // Create an instance of Vue.
   const app = new Vue({
     data: {
-      articles: payload.articles
+      sections: payload.sections
     },
 
     template: `
       <Body>
         <mj-wrapper full-width="full-width" background-color="#641630" />
-        <Email v-bind="{articles}" />
+        <Email v-bind="{sections}" />
         <Footer />
       </Body>
     `

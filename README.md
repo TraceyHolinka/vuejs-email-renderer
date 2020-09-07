@@ -38,3 +38,4 @@ yarn test:unit
 - [Vue 2.6](https://vuejs.org/v2/guide/)
 - [Vue SSR 2.6](https://ssr.vuejs.org/)
 - [mjml 4.5](https://mjml.io/documentation/)
+- [jest 26.2](https://jestjs.io/docs/en/api/)

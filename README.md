@@ -21,6 +21,12 @@ yarn install
 yarn dev
 ```
 
+## Run unit test
+
+``` bash
+yarn test:unit
+```
+
 ## VSCode
 
 - Vetur

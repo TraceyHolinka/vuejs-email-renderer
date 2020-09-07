@@ -14,7 +14,7 @@ Vue.component('Navigation', {
   },
 
   // Anchor links are not supported on many mobile email clients.
-  // Microsoft Outline doesn't play nice with css display so spans are used rather then an undorder list.
+  // Microsoft Outline doesn't play nice with css display so spans are used rather then an undordered list.
   template: `
     <mj-section padding-bottom="24px">
       <mj-column>

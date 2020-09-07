@@ -5,7 +5,7 @@ Vue.component('Tags', {
     tags: { type: Array, default: true }
   },
 
-  // Microsoft Outline doesn't play nice with css display so spans are used rather then an undorder list.
+  // Microsoft Outline doesn't play nice with css display so spans are used rather then an undordered list.
   template: `
     <mj-section>
       <mj-column>

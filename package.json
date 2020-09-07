@@ -1,9 +1,9 @@
 {
-  "name": "vue-demo-email-renderer",
-  "version": "0.2.0",
+  "name": "vuejs-email-renderer",
+  "version": "1.0.0",
   "description": "Vue.js & MJML renderer for emails",
   "license": "UNLICENSED",
-  "main": "src/render.js",
+  "main": "src/renderer.js",
   "scripts": {
     "dev": "mkdir dist; node ./build/buildHtmlWithMockData.js > dist/htmlWithMockData.html",
     "test:unit": "jest '(^.*(test|spec).(js|jsx|ts|tsx))'"

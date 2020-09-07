@@ -1,4 +1,6 @@
 require('./article')
+require('./articleContainer')
+require('./articleImage')
 require('./featuredSection')
 require('./feedSection')
 require('./footer')

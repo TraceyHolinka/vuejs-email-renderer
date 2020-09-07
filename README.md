@@ -27,6 +27,12 @@ yarn dev
 yarn test:unit
 ```
 
+## Test the performance of the render
+
+``` bash
+node ./test/performance/renderer.js
+```
+
 ## VSCode
 
 - Vetur

@@ -16,7 +16,10 @@
         "id": 30,
         "name": "Faker News Author 3"
       },
-      "imageUrl": "https://raw.githubusercontent.com/TraceyHolinka/vuejs-email-renderer/master/src/assets/doggy.jpg",
+      "image": {
+        "url": "https://raw.githubusercontent.com/TraceyHolinka/vuejs-email-renderer/master/src/assets/doggy.jpg",
+        "alt": "Puppy lying on the ground."
+      },
       "body": "<h2>tenetur repellat culpa est accusamus</h2><p>Possimus deserunt et quia fuga. Blanditiis hic et officiis. Itaque autem numquam. Ea voluptas a unde laborum aut mollitia at non et.</p><p>Mollitia non nulla ab velit. Aut praesentium ipsam dolorum aut fugit provident. Est quibusdam consequatur. Impedit voluptatem hic est.</p><p>Odit nam mollitia. Et ut blanditiis. Est aut consectetur nulla consequuntur sed sequi veniam. Architecto dolor amet. Vel deleniti voluptate vero reprehenderit. Maiores animi a ducimus officia quia aut ab nihil.</p><p>Eius id optio saepe dolor velit. Ut perferendis possimus assumenda qui et maxime dicta. Iusto dolorem quod expedita.</p><p>Perspiciatis commodi est voluptatum ea. Sed nulla et cupiditate ut inventore animi eligendi. Eum dolorem corporis maxime deleniti recusandae molestiae. Dolorem delectus reprehenderit minus quas veritatis ex. Nobis quam qui amet quae autem est fugiat at et.</p>"
     },
     {
@@ -43,7 +46,12 @@
             "id": 30,
             "name": "Faker News Author 1"
           },
-          "summary": "Consequuntur voluptas minima numquam. Natus vel sit aspernatur consequatur autem esse veniam officiis ad. Error unde et eos autem. Exercitationem harum possimus labore. Velit dignissimos consectetur. Ipsum aut quae quibusdam omnis natus similique adipisci autem pariatur."
+          "summary": "Consequuntur voluptas minima numquam. Natus vel sit aspernatur consequatur autem esse veniam officiis ad. Error unde et eos autem. Exercitationem harum possimus labore. Velit dignissimos consectetur. Ipsum aut quae quibusdam omnis natus similique adipisci autem pariatur.",
+          "image": {
+            "url": "https://raw.githubusercontent.com/TraceyHolinka/vuejs-email-renderer/master/src/assets/piggy.jpg",
+            "alt": "Close up of pig in field.",
+            "display": true
+          }
         },
         {
           "id": 11,
@@ -60,7 +68,12 @@
             "id": 30,
             "name": "Faker News Author 1"
           },
-          "summary": "Sed repudiandae labore nulla voluptas blanditiis placeat ex vitae. Optio non saepe culpa quo dolor aut consequatur. In repellendus itaque id sit est impedit eum corrupti est."
+          "summary": "Sed repudiandae labore nulla voluptas blanditiis placeat ex vitae. Optio non saepe culpa quo dolor aut consequatur. In repellendus itaque id sit est impedit eum corrupti est.",
+          "image": {
+            "url": "https://raw.githubusercontent.com/TraceyHolinka/vuejs-email-renderer/master/src/assets/cat.jpg",
+            "alt": "Cat on top of fence.",
+            "display": false
+          }
         },
         {
           "id": 12,
@@ -81,7 +94,8 @@
             "id": 30,
             "name": "Faker News Author 1"
           },
-          "summary": "Accusantium sit repellendus esse et et reiciendis sint. Dolorum quia deserunt et cum voluptates aliquid sed dignissimos. Similique distinctio recusandae. Deserunt quod sint quo sequi beatae facilis maxime voluptas. Qui perferendis facere dolorem asperiores."
+          "summary": "Accusantium sit repellendus esse et et reiciendis sint. Dolorum quia deserunt et cum voluptates aliquid sed dignissimos. Similique distinctio recusandae. Deserunt quod sint quo sequi beatae facilis maxime voluptas. Qui perferendis facere dolorem asperiores.",
+          "image": null
         },
         {
           "id": 13,
@@ -98,7 +112,8 @@
             "id": 31,
             "name": "Faker News Author 2"
           },
-          "summary": "Excepturi ipsum in explicabo. Dolorem laudantium omnis nihil. Quasi vitae mollitia nobis numquam explicabo. Ut atque et et perspiciatis illo sit ea facilis ad."
+          "summary": "Excepturi ipsum in explicabo. Dolorem laudantium omnis nihil. Quasi vitae mollitia nobis numquam explicabo. Ut atque et et perspiciatis illo sit ea facilis ad.",
+          "image": null
         },
         {
           "id": 14,
@@ -123,14 +138,16 @@
             "id": 32,
             "name": "Faker News Author 3"
           },
-          "summary": "Provident eos ut officia. Quo sed rerum itaque sequi sed id consectetur. Consequatur magni qui enim quis ut ut quae et minima."
+          "summary": "Provident eos ut officia. Quo sed rerum itaque sequi sed id consectetur. Consequatur magni qui enim quis ut ut quae et minima.",
+          "image": null
         }
       ]
     },
     {
       "__typename": "ImageSection",
       "id": 41,
-      "imageUrl": "https://raw.githubusercontent.com/TraceyHolinka/vuejs-email-renderer/master/src/assets/flower.jpg"
+      "url": "https://raw.githubusercontent.com/TraceyHolinka/vuejs-email-renderer/master/src/assets/flower.jpg",
+      "alt": "A white flower on a blue sky."
     },
     {
       "__typename": "FeedSection",
@@ -147,7 +164,12 @@
             "id": 30,
             "name": "Faker News Author 1"
           },
-          "summary": "Occaecati architecto aut saepe ut velit. Harum deserunt quibusdam nobis ad expedita rem blanditiis. Facilis sapiente libero quia qui corporis. Blanditiis quo qui commodi. Et voluptate laborum id harum. Ut quia vero adipisci porro beatae eos recusandae quidem."
+          "summary": "Occaecati architecto aut saepe ut velit. Harum deserunt quibusdam nobis ad expedita rem blanditiis. Facilis sapiente libero quia qui corporis. Blanditiis quo qui commodi. Et voluptate laborum id harum. Ut quia vero adipisci porro beatae eos recusandae quidem.",
+          "image": {
+            "url": "https://raw.githubusercontent.com/TraceyHolinka/vuejs-email-renderer/master/src/assets/tigger.jpg",
+            "alt": "Tiger lying on stone wall.",
+            "display": true
+          }
         },
         {
           "id": 16,
@@ -172,7 +194,12 @@
             "id": 31,
             "name": "Faker News Author 2"
           },
-          "summary": "Magni sequi autem deserunt voluptatem ullam et magnam. Voluptatem omnis beatae fuga exercitationem repellendus et voluptatum. Hic repellat at assumenda. Et quia quis laudantium magni et ipsum. Consequuntur voluptatem deserunt. Maiores et ipsum aperiam."
+          "summary": "Magni sequi autem deserunt voluptatem ullam et magnam. Voluptatem omnis beatae fuga exercitationem repellendus et voluptatum. Hic repellat at assumenda. Et quia quis laudantium magni et ipsum. Consequuntur voluptatem deserunt. Maiores et ipsum aperiam.",
+          "image": {
+            "url": "https://raw.githubusercontent.com/TraceyHolinka/vuejs-email-renderer/master/src/assets/trees.jpg",
+            "alt": "Trees with fall colored leaves along a path.",
+            "display": false
+          }
         },
         {
           "id": 17,
@@ -189,7 +216,8 @@
             "id": 31,
             "name": "Faker News Author 2"
           },
-          "summary": "Minus non omnis maiores aut quas placeat debitis impedit consequatur. Iste amet explicabo officia accusantium facere sint et. Est quia dolores a minima illum tenetur perspiciatis. Est qui blanditiis ut veritatis ut adipisci in. Minima mollitia incidunt quidem quasi excepturi."
+          "summary": "Minus non omnis maiores aut quas placeat debitis impedit consequatur. Iste amet explicabo officia accusantium facere sint et. Est quia dolores a minima illum tenetur perspiciatis. Est qui blanditiis ut veritatis ut adipisci in. Minima mollitia incidunt quidem quasi excepturi.",
+          "image": null
         },
         {
           "id": 18,
@@ -210,7 +238,8 @@
             "id": 32,
             "name": "Faker News Author 3"
           },
-          "summary": "Nisi dicta temporibus quas et minus dolores. Rerum cumque consequatur cupiditate in vel aperiam mollitia non. Possimus eveniet illo nisi doloremque et sint adipisci aut aut. Reprehenderit quia necessitatibus et. Et dolores error velit illum aliquid exercitationem. Est voluptas maiores repellat et earum voluptatem veritatis sunt."
+          "summary": "Nisi dicta temporibus quas et minus dolores. Rerum cumque consequatur cupiditate in vel aperiam mollitia non. Possimus eveniet illo nisi doloremque et sint adipisci aut aut. Reprehenderit quia necessitatibus et. Et dolores error velit illum aliquid exercitationem. Est voluptas maiores repellat et earum voluptatem veritatis sunt.",
+          "image": null
         }
       ]
     }

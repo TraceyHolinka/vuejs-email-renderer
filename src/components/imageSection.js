@@ -6,10 +6,11 @@ Vue.component('ImageSection', {
     section: { type: Object, require: true }
   },
 
+  // Add image width for Microsoft Office because it doesn't respect CSS width.
   template: `
     <mj-section padding="10px 0">
       <mj-column>
-        <mj-image padding="0" width="600px" :src="section.imageUrl" />
+        <mj-image width="600px" padding="0" border="solid 5px #000" border-radius="5px" :src="section.url" :alt="section.alt" />
       </mj-column>
     </mj-section>
   `

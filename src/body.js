@@ -1,6 +1,8 @@
 const Vue = require('vue')
 const css = require('./assets/css')
 
+// The default width for <mj-body> is 600px.
+
 Vue.component('Body', {
   template: `
   <mjml>

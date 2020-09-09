@@ -1,4 +1,4 @@
-const renderer = require('../src/render')
+const renderer = require('../src/renderer')
 const data = require('../src/data/mockData.json')
 
 renderer.renderHtml(data, { validationLevel: 'strict', beautify: true })

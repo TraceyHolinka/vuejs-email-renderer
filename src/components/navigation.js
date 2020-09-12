@@ -1,6 +1,7 @@
 const Vue = require('vue')
 
 Vue.component('Navigation', {
+
   props: {
     topics: { type: Array, default: true }
   },

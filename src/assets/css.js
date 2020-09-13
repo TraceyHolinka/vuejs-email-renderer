@@ -1,9 +1,3 @@
-// --white-snow: #f5f8f7;
-// --sansa-rose: #ba717d;
-// --tyrion-purple: #641630;
-// --lyanna-magenta: #a23e5f;
-// --arya-black: #0b0b0b;
-
 // Hover states are generally not supported so leaving links underline is a visually cue that the text is clickable.
 
 exports.inlineCSS = `

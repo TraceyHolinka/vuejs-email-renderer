@@ -39,6 +39,6 @@ Vue.component('Email', {
         v-bind="{ section }"
       />
       <Tags v-bind="{tags}" />
-      </mj-wrapper>
+    </mj-wrapper>
   `
 })

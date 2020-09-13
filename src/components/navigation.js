@@ -6,7 +6,7 @@ Vue.component('Navigation', {
     topics: { type: Array, default: true }
   },
 
-  // Mixing varibles and text in attributes like href="#${topic.id}" throws errors.
+  // Mixing variables and text in attributes like href="#${topic.id}" throws errors.
   // The work around is to use a method or computed property.
   methods: {
     href(anchor) {

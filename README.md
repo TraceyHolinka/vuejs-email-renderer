@@ -27,7 +27,7 @@ yarn dev
 yarn test:unit
 ```
 
-## Test the performance of the render
+## Test the performance of the renderer
 
 ``` bash
 node ./test/performance/renderer.js

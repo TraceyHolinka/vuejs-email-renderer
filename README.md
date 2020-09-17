@@ -1,6 +1,6 @@
 # Email Renderer
 
-Create email friendly html using Vue.js, Vue Server Renderer & mjml.
+Create email friendly HTML using Vue.js, Vue Server Renderer & MJML.
 
 ## Requirements
 

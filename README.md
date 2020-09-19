@@ -45,3 +45,8 @@ node ./test/performance/renderer.js
 - [Vue SSR 2.6](https://ssr.vuejs.org/)
 - [mjml 4.5](https://mjml.io/documentation/)
 - [jest 26.2](https://jestjs.io/docs/en/api/)
+
+## Videos
+
+- [HTML Email with Vue.js @ Global Vue Meetup](https://youtu.be/QuEEF-QvfmU)
+- [HTML Email with Vue.js @ VueDC Meetup](https://youtu.be/ZpanV5DQlbs)

@@ -48,5 +48,8 @@ node ./test/performance/renderer.js
 
 ## Videos
 
-- [HTML Email with Vue.js @ Global Vue Meetup](https://youtu.be/QuEEF-QvfmU)
-- [HTML Email with Vue.js @ VueDC Meetup](https://youtu.be/ZpanV5DQlbs)
+- [HTML Email with Vue.js @ Global Vue Meetup](https://www.youtube.com/watch?v=QuEEF-QvfmU&t=1645s)
+- [HTML Email with Vue.js @ VueDC Meetup](https://www.youtube.com/watch?v=ZpanV5DQlbs&t=268s )
+
+## Slides
+- [HTML Email with Vue.js](http://traceyholinka.com/slides/html-email-with-vuejs/)

@@ -1,6 +1,4 @@
-const Vue = require('vue')
-
-Vue.component('ImageSection', {
+const imageSection = {
 
   props: {
     section: { type: Object, require: true }
@@ -14,4 +12,6 @@ Vue.component('ImageSection', {
       </mj-column>
     </mj-section>
   `
-})
+}
+
+exports.imageSection = imageSection

@@ -1,8 +1,13 @@
-const Vue = require('vue')
-const util = require('../util') 
-require('../components')
+const util = require('../util')
 
-Vue.component('Email', {
+const { header } = require('../components/header.js')
+const { navigation } = require('../components/navigation.js')
+const { featuredSection } = require('../components/featuredSection.js')
+const { imageSection } = require('../components/imageSection.js')
+const { tags } = require('../components/tags.js')
+
+
+const email = {
 
   props: {
     sections: { type: Array, required: true }
@@ -28,18 +33,28 @@ Vue.component('Email', {
     }
   },
 
+  components: {
+    Header: header,
+    Navigation: navigation,
+    FeaturedSection: featuredSection,
+    ImageSection: imageSection,
+    Tags: tags
+  },
+
   // https://v3.vuejs.org/api/directives.html#v-pre
   template: `
     <mj-wrapper>
       <Header />
       <Navigation v-bind="{topics}" />
-      <component 
+      <!-- <component 
         v-for="(section, index) in sections"
         :key="index"
         :is="section.__typename"
         v-bind="{ section }"
-      />
+      /> -->
       <Tags v-bind="{tags}" />
     </mj-wrapper>
   `
-})
+}
+
+exports.email = email

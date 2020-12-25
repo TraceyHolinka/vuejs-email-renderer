@@ -1,6 +1,4 @@
-const Vue = require('vue')
-
-Vue.component('Tags', {
+const tags = {
   props: {
     tags: { type: Array, default: true }
   },
@@ -16,4 +14,6 @@ Vue.component('Tags', {
       </mj-column>
     </mj-section>
   `
-})
+}
+
+exports.tags = tags

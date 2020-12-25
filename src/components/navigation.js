@@ -1,6 +1,4 @@
-const Vue = require('vue')
-
-Vue.component('Navigation', {
+const navigation = {
 
   props: {
     topics: { type: Array, default: true }
@@ -25,4 +23,6 @@ Vue.component('Navigation', {
       </mj-column>
     </mj-section>
   `
-})
+}
+
+exports.navigation = navigation

@@ -1,6 +1,4 @@
-const Vue = require('vue')
-
-Vue.component('ArticleContainer', {
+const articleContainer = {
 
   functional: true,
 
@@ -20,4 +18,6 @@ Vue.component('ArticleContainer', {
       }
     })
   ]
-})
+}
+
+exports.articleContainer = articleContainer

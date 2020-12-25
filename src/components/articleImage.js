@@ -1,6 +1,4 @@
-const Vue = require('vue')
-
-Vue.component('ArticleImage', {
+const articleImage = {
 
   props: {
     image: { type: Object, require: true }
@@ -10,4 +8,6 @@ Vue.component('ArticleImage', {
   template: `
     <mj-image v-if="!!image && image.display && image.url" width="580px" padding="0" :src="image.url" :alt="image.alt" />
   `
-})
+}
+
+exports.articleImage = articleImage

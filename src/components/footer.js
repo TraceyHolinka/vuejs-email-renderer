@@ -1,8 +1,4 @@
-const { createSSRApp } = require('vue')
-const app = createSSRApp({})
-
-app.component('Footer', {
-
+const footer = {
   template: `
     <mj-wrapper full-width="full-width" background-color="#641630">
       <mj-section padding="0 10px" background-color="transparent">
@@ -14,4 +10,6 @@ app.component('Footer', {
       </mj-section>
     </mj-wrapper>
   `
-})
+}
+
+exports.footer = footer;

@@ -2,10 +2,10 @@ const mjml2html = require('mjml')
 const Vue = require('vue')
 const { createSSRApp } = require('vue')
 const { renderToString } = require('@vue/server-renderer')
-// require('./views/email')
-// require('./components')
-// require('./body.js')
-// require('./components/footer.js')
+
+const { body } = require('./body.js')
+const { email } = require('./views/email.js')
+const { footer } = require('./components/footer.js')
 
 exports.renderHtml = async function renderHtml(payload, options) {
 
@@ -19,22 +19,28 @@ exports.renderHtml = async function renderHtml(payload, options) {
     }
   }
 
+  // console.log(payload.section)
+
   // Create an instance of Vue.
   const app = createSSRApp({
     data() {
       return {
-       sections: payload.section
+       sections: payload.sections
       }
     },
 
+    components: {
+      Body: body,
+      Email: email,
+      Footer: footer
+    },
+  
     template: `
-      <mjml>
-        <mj-body>
-          <mj-wrapper full-width="full-width" background-color="#641630" />
-          <!-- <Email v-bind="{sections}" /> -->
-          <!-- <Footer /> -->
-        </mj-body>
-      </mjml>
+      <Body>
+        <mj-wrapper full-width="full-width" background-color="#641630" />
+        <Email v-bind="{sections}" />
+        <Footer />
+      </Body>
     `
   })
 
@@ -46,8 +52,6 @@ exports.renderHtml = async function renderHtml(payload, options) {
 
   // Remove <!--[--> and <!--]--> add by the server renderer.
   html = html.replace('<!--[-->', '').replace('<!--]-->', '')
-
-  return html
 
   // Let mjml do its magic
   return mjml2html(html, options).html

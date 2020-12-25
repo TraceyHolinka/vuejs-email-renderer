@@ -1,6 +1,4 @@
-const Vue = require('vue')
-
-Vue.component('FeaturedSection', {
+const featuredSection = {
 
   props: {
     section: { type: Object, require: true }
@@ -19,4 +17,6 @@ Vue.component('FeaturedSection', {
       </mj-column>
     </mj-section>
   `
-})
+}
+
+exports.featuredSection = featuredSection

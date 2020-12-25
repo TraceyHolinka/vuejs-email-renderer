@@ -1,6 +1,6 @@
-const Vue = require('vue')
+const { footer } = require('./footer')
 
-Vue.component('FeedSection', {
+const feedSection = {
 
   props: {
     section: { type: Object, require: true }
@@ -20,4 +20,6 @@ Vue.component('FeedSection', {
       </mj-column>
     </mj-section>
   `
-}) 
+}
+
+exports.feedSection = feedSection

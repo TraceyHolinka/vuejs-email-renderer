@@ -1,6 +1,4 @@
-const Vue = require('vue')
-
-Vue.component('Article', {
+const article = {
 
   props: {
     article: { type: Object, require: true }
@@ -12,4 +10,6 @@ Vue.component('Article', {
       <p class="body">{{ article.summary }} <a :href="article.permalink">Read more...</a></p>
     </mj-text>
   `
-})
+}
+
+exports.article = article

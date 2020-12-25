@@ -28,6 +28,7 @@ Vue.component('Email', {
     }
   },
 
+  // https://v3.vuejs.org/api/directives.html#v-pre
   template: `
     <mj-wrapper>
       <Header />

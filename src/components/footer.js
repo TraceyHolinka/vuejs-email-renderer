@@ -1,6 +1,7 @@
-const Vue = require('vue')
+const { createSSRApp } = require('vue')
+const app = createSSRApp({})
 
-Vue.component('Footer', {
+app.component('Footer', {
 
   template: `
     <mj-wrapper full-width="full-width" background-color="#641630">

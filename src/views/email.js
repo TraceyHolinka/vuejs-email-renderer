@@ -2,12 +2,19 @@ const util = require('../util')
 
 const { header } = require('../components/header.js')
 const { navigation } = require('../components/navigation.js')
-const { featuredSection } = require('../components/featuredSection.js')
-const { imageSection } = require('../components/imageSection.js')
+const { sections } = require('../components/sections.js')
 const { tags } = require('../components/tags.js')
-
+const { footer } = require('../components/footer.js')
 
 const email = {
+
+  components: {
+    Header: header,
+    Navigation: navigation,
+    Sections: sections,
+    Tags: tags,
+    Footer: footer
+  },
 
   props: {
     sections: { type: Array, required: true }
@@ -33,27 +40,19 @@ const email = {
     }
   },
 
-  components: {
-    Header: header,
-    Navigation: navigation,
-    FeaturedSection: featuredSection,
-    ImageSection: imageSection,
-    Tags: tags
-  },
-
-  // https://v3.vuejs.org/api/directives.html#v-pre
   template: `
+    <mj-wrapper full-width="full-width" background-color="#641630" />
     <mj-wrapper>
       <Header />
-      <Navigation v-bind="{topics}" />
-      <!-- <component 
-        v-for="(section, index) in sections"
-        :key="index"
-        :is="section.__typename"
+      <Navigation v-bind="{ topics }" />
+      <Sections
+        v-for="(section) in sections"
+        :key="section.id"
         v-bind="{ section }"
-      /> -->
+      />
       <Tags v-bind="{tags}" />
     </mj-wrapper>
+    <Footer />
   `
 }
 

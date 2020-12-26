@@ -5,7 +5,6 @@ const { renderToString } = require('@vue/server-renderer')
 
 const { body } = require('./body.js')
 const { email } = require('./views/email.js')
-const { footer } = require('./components/footer.js')
 
 exports.renderHtml = async function renderHtml(payload, options) {
 
@@ -19,8 +18,6 @@ exports.renderHtml = async function renderHtml(payload, options) {
     }
   }
 
-  // console.log(payload.section)
-
   // Create an instance of Vue.
   const app = createSSRApp({
     data() {
@@ -32,14 +29,11 @@ exports.renderHtml = async function renderHtml(payload, options) {
     components: {
       Body: body,
       Email: email,
-      Footer: footer
     },
   
     template: `
       <Body>
-        <mj-wrapper full-width="full-width" background-color="#641630" />
         <Email v-bind="{sections}" />
-        <Footer />
       </Body>
     `
   })

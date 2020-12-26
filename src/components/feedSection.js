@@ -1,6 +1,10 @@
-const { footer } = require('./footer')
+const { article } = require('../components/article.js')
 
 const feedSection = {
+
+  components: {
+    Article: article
+  },
 
   props: {
     section: { type: Object, require: true }
@@ -12,9 +16,9 @@ const feedSection = {
         <mj-text>
           <a :name="section.id" /><h1 class="section-title">{{ section.title }}</h1>
         </mj-text>
-        <ArticleContainer
-          v-for="(article, index) in section.items"
-          :key="index"
+        <Article
+          v-for="(article) in section.items"
+          :key="article.id"
           v-bind="{article}"
         />
       </mj-column>

@@ -1,4 +1,4 @@
-// Hover states are generally not supported so leaving links underline is a visually cue that the text is clickable.
+// Hover states are generally not supported so leaving links underline is a visual cue that the text is clickable.
 
 exports.inlineCSS = `
   a {

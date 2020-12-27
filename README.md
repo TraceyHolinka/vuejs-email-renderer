@@ -54,7 +54,7 @@ node ./tests/performance/renderer.js
 
 ## Documentation
 
-- [Vue 2.6](https://vuejs.org/v2/guide/)
-- [Vue SSR 2.6](https://ssr.vuejs.org/)
+- [Vue 3](https://vuejs.org/v3/guide/)
+- [Vue SSR 3](https://github.com/vuejs/vue-next/tree/master/packages/server-renderer)
 - [mjml](https://mjml.io/documentation/)
 - [jest](https://jestjs.io/docs/en/api/)

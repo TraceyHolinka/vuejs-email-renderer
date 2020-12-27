@@ -1,4 +1,4 @@
-exports.dedup= function dedup(items) {
+exports.dedup = function dedup(items) {
   let uniqueItems = {}
   for (const item of items) {
     uniqueItems[item.id] = item

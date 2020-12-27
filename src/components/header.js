@@ -1,6 +1,4 @@
-const Vue = require('vue')
-
-Vue.component('Header', {
+const header = {
 
   template: `
     <mj-section>
@@ -11,4 +9,6 @@ Vue.component('Header', {
       </mj-column>
     </mj-section>
 `
-})
+}
+
+exports.header = header

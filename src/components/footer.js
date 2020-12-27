@@ -1,7 +1,4 @@
-const Vue = require('vue')
-
-Vue.component('Footer', {
-
+const footer = {
   template: `
     <mj-wrapper full-width="full-width" background-color="#641630">
       <mj-section padding="0 10px" background-color="transparent">
@@ -13,4 +10,6 @@ Vue.component('Footer', {
       </mj-section>
     </mj-wrapper>
   `
-})
+}
+
+exports.footer = footer;

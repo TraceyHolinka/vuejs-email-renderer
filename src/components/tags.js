@@ -3,7 +3,7 @@ const tags = {
     tags: { type: Array, default: true }
   },
 
-  // Microsoft Outline doesn't play nice with css display so spans are used rather then an undordered list.
+  // Microsoft Outline doesn't play nice with css display so spans are used rather then an unordered list.
   template: `
     <mj-section>
       <mj-column>

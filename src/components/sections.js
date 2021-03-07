@@ -1,4 +1,3 @@
-const Vue = require('vue')
 const { featuredSection } = require('../components/featuredSection.js')
 const { feedSection } = require('../components/feedSection.js')
 const { imageSection } = require('../components/imageSection.js')

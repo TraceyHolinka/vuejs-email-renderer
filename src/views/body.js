@@ -6,7 +6,7 @@ const { sections } = require('../components/sections.js')
 const { tags } = require('../components/tags.js')
 const { footer } = require('../components/footer.js')
 
-const email = {
+const body = {
 
   components: {
     Header: header,
@@ -50,10 +50,10 @@ const email = {
         :key="section.id"
         v-bind="{ section }"
       />
-      <Tags v-bind="{tags}" />
+      <Tags v-bind="{ tags }" />
     </mj-wrapper>
     <Footer />
   `
 }
 
-exports.email = email
+exports.body = body

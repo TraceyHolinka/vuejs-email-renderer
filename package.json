@@ -1,6 +1,6 @@
 {
   "name": "vuejs-email-renderer",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Vue.js & MJML renderer for emails",
   "license": "MIT",
   "main": "src/renderer.js",

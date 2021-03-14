@@ -1,19 +1,18 @@
 const mjml2html = require('mjml')
-const Vue = require('vue')
 const { createSSRApp } = require('vue')
 const { renderToString } = require('@vue/server-renderer')
 
-const { body } = require('./body.js')
-const { email } = require('./views/email.js')
+const { email } = require('./email.js')
+const { body } = require('./views/body.js')
 
 exports.renderHtml = async function renderHtml(payload, options) {
 
   // Set default options for mjml2html (https://github.com/mjmlio/mjml#inside-nodejs).
   options =  options || {
-    minify: true, 
+    minify: true,
     minifyOptions: {
-      collapseWhitespace: true, 
-      minifyCSS: true, 
+      collapseWhitespace: true,
+      minifyCSS: true,
       removeEmptyAttributes: true
     }
   }
@@ -32,16 +31,16 @@ exports.renderHtml = async function renderHtml(payload, options) {
     },
   
     template: `
-      <Body>
-        <Email v-bind="{sections}" />
-      </Body>
+      <Email>
+        <Body v-bind="{ sections }" />
+      </Email>
     `
   })
 
   // Tell Vue to recognize mjml components. See: https://v3.vuejs.org/api/application-config.html#iscustomelement
   app.config.isCustomElement = tag => tag === 'mjml' || tag.startsWith('mj-')
 
-  // Render the Vue instance to a varible
+  // Render the Vue instance to a variable
   let html = await renderToString(app)
 
   // Remove <!--[--> and <!--]--> add by the server renderer.

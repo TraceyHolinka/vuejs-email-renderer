@@ -1,9 +1,9 @@
 // Import CSS
 const css = require('./assets/css')
 
-// Unlike the the first verstion of Vuejs Email Renderer, here we export the component as an object
+// Unlike the the first version of Vue.js Email Renderer, here we export the component as an object
 // and then declare it in the component that is use it.
-const body = {
+const email = {
 
 // The default width for <mj-body> is 600px.
   template: `
@@ -31,4 +31,4 @@ const body = {
   `
 }
 
-exports.body = body;
+exports.email = email;

@@ -1,4 +1,4 @@
-// Example of manual function performance testing of best method for geting all articles by a section type.
+// Example of manual function performance testing of best method for getting all articles by a section type.
 // Courtesy of Emma Alexandra: https://github.com/emma-k-alexandra
 
 let section = {

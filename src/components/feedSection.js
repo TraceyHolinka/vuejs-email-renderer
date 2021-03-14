@@ -19,7 +19,7 @@ const feedSection = {
         <Article
           v-for="(article) in section.items"
           :key="article.id"
-          v-bind="{article}"
+          v-bind="{ article }"
         />
       </mj-column>
     </mj-section>

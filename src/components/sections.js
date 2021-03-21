@@ -1,6 +1,6 @@
-const { featuredSection } = require('../components/featuredSection.js')
-const { feedSection } = require('../components/feedSection.js')
-const { imageSection } = require('../components/imageSection.js')
+const { featuredSection } = require('./featuredSection.js')
+const { feedSection } = require('./feedSection.js')
+const { imageSection } = require('./imageSection.js')
 
 const sections = {
 

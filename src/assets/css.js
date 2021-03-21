@@ -12,11 +12,11 @@ exports.inlineCSS = `
   img {
     max-width: 100%;
   }
-  .body h2,
+  .summary h2,
   .headline {
     font-size: 20px;
   }
-  .body {
+  .summary {
     font-size: 16px;
     line-height: 24px;
   }

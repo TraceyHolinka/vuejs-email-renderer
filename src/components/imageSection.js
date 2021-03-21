@@ -8,7 +8,14 @@ const imageSection = {
   template: `
     <mj-section padding="10px 0">
       <mj-column>
-        <mj-image width="600px" padding="0" border="solid 5px #000" border-radius="5px" :src="section.url" :alt="section.alt" />
+        <mj-image
+          width="600px"
+          padding="0"
+          border="solid 5px #000"
+          border-radius="5px"
+          :src="section.url"
+          :alt="section.alt"
+        />
       </mj-column>
     </mj-section>
   `

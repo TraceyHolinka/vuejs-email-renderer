@@ -12,6 +12,9 @@ exports.inlineCSS = `
   img {
     max-width: 100%;
   }
+  .section-title {
+    font-size: 26px;
+  }
   .summary h2,
   .headline {
     font-size: 20px;

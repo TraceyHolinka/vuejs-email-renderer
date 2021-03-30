@@ -19,6 +19,7 @@ exports.inlineCSS = `
   .headline {
     font-size: 20px;
   }
+  .body,
   .summary {
     font-size: 16px;
     line-height: 24px;

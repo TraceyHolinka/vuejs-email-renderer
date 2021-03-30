@@ -7,16 +7,6 @@ const { body } = require('./views/body.js')
 
 exports.renderHtml = async function renderHtml(payload, options) {
 
-  // Set default options for mjml2html (https://github.com/mjmlio/mjml#inside-nodejs).
-  options =  options || {
-    minify: true,
-    minifyOptions: {
-      collapseWhitespace: true,
-      minifyCSS: true,
-      removeEmptyAttributes: true
-    }
-  }
-
   // Create an instance of Vue.
   const app = createSSRApp({
     data() {

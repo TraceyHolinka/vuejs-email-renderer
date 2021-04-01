@@ -5,17 +5,7 @@ const { renderToString } = require('@vue/server-renderer')
 const { email } = require('./email.js')
 const { body } = require('./views/body.js')
 
-exports.renderHtml = async function renderHtml(payload, options) {
-
-  // Set default options for mjml2html (https://github.com/mjmlio/mjml#inside-nodejs).
-  options =  options || {
-    minify: true,
-    minifyOptions: {
-      collapseWhitespace: true,
-      minifyCSS: true,
-      removeEmptyAttributes: true
-    }
-  }
+exports.renderHtml = async function renderHtml(payload) {
 
   // Create an instance of Vue.
   const app = createSSRApp({
@@ -47,5 +37,5 @@ exports.renderHtml = async function renderHtml(payload, options) {
   html = html.replace('<!--[-->', '').replace('<!--]-->', '')
 
   // Let mjml do its magic
-  return mjml2html(html, options).html
+  return mjml2html(html).html
 }

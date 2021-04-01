@@ -1,0 +1,8 @@
+.footer {
+  text-align: center;
+}
+@media(min-width: 480px) {
+  .footer {
+    text-align: left;
+  }
+}

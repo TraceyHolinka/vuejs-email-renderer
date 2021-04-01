@@ -1,4 +1,4 @@
-const { article } = require('../components/article.js')
+const { article } = require('./article.js')
 
 const feedSection = {
 

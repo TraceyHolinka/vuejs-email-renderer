@@ -5,7 +5,7 @@ const { renderToString } = require('@vue/server-renderer')
 const { email } = require('./email.js')
 const { body } = require('./views/body.js')
 
-exports.renderHtml = async function renderHtml(payload, options) {
+exports.renderHtml = async function renderHtml(payload) {
 
   // Create an instance of Vue.
   const app = createSSRApp({
@@ -30,12 +30,12 @@ exports.renderHtml = async function renderHtml(payload, options) {
   // Tell Vue to recognize mjml components. See: https://v3.vuejs.org/api/application-config.html#iscustomelement
   app.config.isCustomElement = tag => tag === 'mjml' || tag.startsWith('mj-')
 
-  // Render the Vue instance to a string
+  // Render the Vue instance to a variable
   let html = await renderToString(app)
 
   // Remove <!--[--> and <!--]--> add by the server renderer.
   html = html.replace('<!--[-->', '').replace('<!--]-->', '')
 
   // Let mjml do its magic
-  return mjml2html(html, options).html
+  return mjml2html(html).html
 }

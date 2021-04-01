@@ -1,7 +1,7 @@
 const imageSection = {
 
   props: {
-    section: { type: Object, require: true }
+    section: { type: Object, required: true }
   },
 
   // Add image width for Microsoft Office because it doesn't respect CSS width.

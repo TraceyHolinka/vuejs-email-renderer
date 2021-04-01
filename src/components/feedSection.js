@@ -7,7 +7,7 @@ const feedSection = {
   },
 
   props: {
-    section: { type: Object, require: true }
+    section: { type: Object, required: true }
   },
 
   template: `

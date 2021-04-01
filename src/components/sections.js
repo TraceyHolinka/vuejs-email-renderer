@@ -11,7 +11,7 @@ const sections = {
   },
 
   props: {
-    section: { type: Object, require: true }
+    section: { type: Object, required: true }
   },
 
   // Dynamic components in a for loop

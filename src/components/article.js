@@ -1,7 +1,7 @@
 const article = {
 
   props: {
-    article: { type: Object, require: true }
+    article: { type: Object, required: true }
   },
 
   template: `

@@ -30,7 +30,7 @@ exports.renderHtml = async function renderHtml(payload) {
   // Tell Vue to recognize mjml components. See: https://v3.vuejs.org/api/application-config.html#iscustomelement
   app.config.isCustomElement = tag => tag === 'mjml' || tag.startsWith('mj-')
 
-  // Render the Vue instance to a variable
+  // Render the Vue instance to a variable as a string
   let html = await renderToString(app)
 
   // Remove <!--[--> and <!--]--> add by the server renderer.
